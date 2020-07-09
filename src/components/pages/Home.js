@@ -10,10 +10,10 @@ function Home() {
         <img src={logo} className={Style.logo} alt="logo" />
         <Link
           className={Style.button}
-          to='/main'
+          to='/default'
         >
-        <p>Enter my Portfolio</p>
-      </Link>
+          <p>Enter my Portfolio</p>
+        </Link>
       </div>
     </div>
   );
